@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      #map {
+        width: 1024px;
+        height: 786px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- Google Maps JS API -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <!-- GMaps Library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.24/gmaps.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js"></script>
+    <script>
+
+      var images = {
+        // 'Bankia': "images/bankia.png",
+        // "Banco Pastor": "http://cardsonpalm.com/logos/02/209-40.png",
+        // "Banco Popular": "http://s03.s3c.es/imag3/logos/banco-popular/popular_hover50x32.png",
+        // "Banco Santander": "http://www.lapalmacorrupcionenelvalle.com/images/bancosantander40px.png",
+        // "ING Direct": "http://www.choisir.com/sites/default/files/styles/choisir_brand_logo_article/public/pictures/brands/ing-direct.png?itok=1HTsNPzE",
+        // "Triodos Bank": "https://www.triodos.es/custom/cluster-map/marker.png"
+        'Bankia': "images/bankia.png",
+        "Banco Pastor": "images/pastor.png",
+        "Banco Popular": "images/popular.png",
+        "Banco Santander": "images/santander.png",
+        "ING Direct": "images/ing.png",
+        "Triodos Bank": "images/triodos.png"
+      };
+
+      var icons = [
+        {
+          height: 53,
+          url: "./images/icons/m1.png",
+          width: 53
+        },
+        {
+          height: 56,
+          url: "./images/icons/m2.png",
+          width: 56
+        },
+        {
+          height: 66,
+          url: "./images/icons/m3.png",
+          width: 66
+        }
+      ];
+
+      fetch('banks_auto.json')
+        .then(
+          function(response) {
+            response.json().then(function(banks) {
+              GMaps.geolocate({
+                success: function(position) {
+                  var mapObj = new GMaps({
+                    el: '#map',
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude,
+                    zoom: 13,
+                    markerClusterer: function(map) {
+                      return new MarkerClusterer(map, null, { styles: icons });
+                    }
+                  });
+
+                  banks.forEach(function(bank){
+                    console.log("Adding marker for " + bank.bank);
+                    mapObj.addMarker({
+                      lat: bank.latitude,
+                      lng: bank.longitude,
+                      title: bank.bank,
+                      icon: images[bank.bank],
+                      optimized: true,
+                      infoWindow: {
+                        content: '<h4>' + bank.bank + '</h4><div>' + bank.address + '</div>',
+                        maxWidth: 100
+                      }
+                    });
+                  });
+                },
+                error: function(error) {
+                  alert('Geolocation failed: ' + error.message);
+                },
+                not_supported: function() {
+                  alert("Your browser does not support geolocation");
+                }
+              });
+            });
+          }
+        )
+        .catch(console.error.bind(console));
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+[
+	  {
+        "address": "Avenida Meridiana 216",
+        "office": "Barcelona",
+        "postal_code": "08027",
+        "bank": "ING Direct"
+      }, {
+        "address": "Calle Numancia 63",
+        "office": "Barcelona",
+        "postal_code": "08029",
+        "bank": "ING Direct"
+      }, {
+        "address": "Avenida Diagonal 475",
+        "office": "Barcelona",
+        "postal_code": "08036",
+        "bank": "ING Direct"
+      }
+]

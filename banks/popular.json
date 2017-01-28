@@ -1,0 +1,253 @@
+[ {
+      "office": "Barcelona, Urb. 11",
+      "postal_code": "08002",
+      "address": "Ps La Rambla, 128",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 8",
+      "postal_code": "08003",
+      "address": "Av Marques De L'Argentera, 1",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 9",
+      "postal_code": "08003",
+      "address": "Cl Via Laietana, 33",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 53",
+      "postal_code": "08005",
+      "address": "Av Icaria, 148",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 66",
+      "postal_code": "08005",
+      "address": "Cl Marina, 75",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 7",
+      "postal_code": "08006",
+      "address": "Cl Tuset, 20",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 15",
+      "postal_code": "08006",
+      "address": "Cl Via Augusta, 158",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Op",
+      "postal_code": "08007",
+      "address": "Ps Gracia, 17",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 6",
+      "postal_code": "08009",
+      "address": "Cl Girona, 54",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 27",
+      "postal_code": "08011",
+      "address": "Cl Muntaner, 1",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 32",
+      "postal_code": "08011",
+      "address": "Cl Aribau, 57",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 43",
+      "postal_code": "08012",
+      "address": "Avenida Principe De Asturias 63",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 33",
+      "postal_code": "08013",
+      "address": "Cl Gran Via De Les Corts Catalanes, 715",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 18",
+      "postal_code": "08013",
+      "address": "Cl Mallorca, 419",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 65",
+      "postal_code": "08013",
+      "address": "Av Diagonal, 311",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 4",
+      "postal_code": "08014",
+      "address": "Cl Dels Comtes De Bell-lloc, 144",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 25",
+      "postal_code": "08014",
+      "address": "Cl Sants, 10",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 46",
+      "postal_code": "08014",
+      "address": "Cl Tarragona, 115",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 1",
+      "postal_code": "08015",
+      "address": "Cl Gran Via De Les Corts Catalanes, 408",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 16",
+      "postal_code": "08015",
+      "address": "Rd Sant Pau, 1",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 57",
+      "postal_code": "08016",
+      "address": "Paseo Fabra Y Puig 171",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 45",
+      "postal_code": "08016",
+      "address": "Cl Formentera, 2",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 35",
+      "postal_code": "08017",
+      "address": "Cl Rosari, 45",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 12",
+      "postal_code": "08018",
+      "address": "Cl Pere Iv, 141",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 63",
+      "postal_code": "08018",
+      "address": "Rb Poblenou, 133",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 62",
+      "postal_code": "08019",
+      "address": "Cl Fluvia, 38",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 71",
+      "postal_code": "08019",
+      "address": "Av Diagonal, 3",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 17",
+      "postal_code": "08020",
+      "address": "Guipuzcoa 148 -150",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 48",
+      "postal_code": "08021",
+      "address": "Cl Ganduxer, 22",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 49",
+      "postal_code": "08021",
+      "address": "Av Diagonal, 564",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 34",
+      "postal_code": "08022",
+      "address": "Cl Balmes, 372",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 29",
+      "postal_code": "08022",
+      "address": "Muntaner 507 -509",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 55",
+      "postal_code": "08024",
+      "address": "CerdeÃ±a 525",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 5",
+      "postal_code": "08025",
+      "address": "Cl Industria, 146",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 44",
+      "postal_code": "08025",
+      "address": "Cl Corsega, 514",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 10",
+      "postal_code": "08026",
+      "address": "Av Meridiana, 143",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 13",
+      "postal_code": "08027",
+      "address": "Cl Garcilaso, 152",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 58",
+      "postal_code": "08027",
+      "address": "Cl Felip Ii, 19",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 20",
+      "postal_code": "08028",
+      "address": "Av Madrid, 33",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 30",
+      "postal_code": "08028",
+      "address": "Cl Sants, 149",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 47",
+      "postal_code": "08029",
+      "address": "Av Sarria, 25",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 50",
+      "postal_code": "08029",
+      "address": "Av Diagonal, 557",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 52",
+      "postal_code": "08029",
+      "address": "Marques De Sentmenat 46 -48",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 23",
+      "postal_code": "08030",
+      "address": "Ps Torras I Bages, 51",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 60",
+      "postal_code": "08030",
+      "address": "Cl Formiga, 27",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 37",
+      "postal_code": "08030",
+      "address": "Cl Gran De Sant Andreu, 152",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 59",
+      "postal_code": "08032",
+      "address": "Paseo Maragall 419",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 38",
+      "postal_code": "08032",
+      "address": "Ps Maragall, 255",
+      "bank": "Banco Popular"
+    }, {
+      "office": "Barcelona, Urb. 21",
+      "postal_code": "08034",
+      "address": "Cl Capita Arenas, 21",
+      "bank": "Banco Popular"
+    },
+    {
+      "office": "Barcelona, Urb. 56",
+      "postal_code": "08034",
+      "address": "Cl Beltran I Rozpide, 8",
+      "bank": "Banco Popular"
+    }
+  ]
